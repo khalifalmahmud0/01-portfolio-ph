@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Welcome {
+    background-image: url('https://jhankarphero.github.io/developer-portfolio/images/top-banner.png');
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    .left {
+        width: 50%;
+        h1 {
+            margin: 0;
+            color: black;
+            font-size: 50px;
+            span {
+                color: #FFA500;
+            }
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            margin-bottom: 35px;
+        }
+        a {
+            background-image: linear-gradient(to right, #FB6655, yellow);
+            text-decoration: none;
+            color: white;
+            padding: 10px 30px;
+            border-radius: 5px;
+        }
+    }
+    .right {
+        width: 50%;
+        text-align: right;
+        img {
+            height: 650px;
+        }
+    }
+}

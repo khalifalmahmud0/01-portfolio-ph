@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Welcome {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    .left {
+        width: 50%;
+        h1 {
+            padding: 0px;
+            color: black;
+            font-size: 50px;
+            span {
+                color: #FFA500;
+            }
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {}
+        a {}
+    }
+    .right {
+        width: 50%;
+        text-align: right;
+        img {
+            height: 650px;
+        }
+    }
+}
